@@ -1,0 +1,62 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: white; /* Fundo branco */
+    color: black; /* Letras pretas */
+}
+
+header {
+    background-color: #4CAF50; /* Cor de fundo do cabeçalho */
+    color: white; /* Letras brancas no cabeçalho */
+    text-align: center;
+    padding: 1em 0;
+}
+
+nav {
+    background-color: #333; /* Cor de fundo da navegação */
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: white; /* Letras brancas nos links */
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    text-decoration: underline; /* Sublinhado ao passar o mouse */
+}
+
+main {
+    padding: 20px;
+    text-align: center;
+}
+
+figure {
+    display: inline-block;
+    margin: 20px;
+}
+
+footer {
+    background-color: #333; /* Cor de fundo do rodapé */
+    color: white; /* Letras brancas no rodapé */
+    text-align: center;
+    padding: 10px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Estilo para o texto em negrito */
+strong {
+    font-weight: bold; /* Negrito */
+}
