@@ -1,0 +1,57 @@
+body {
+    text-align: center;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: white; /* Fundo branco */
+    color: black; /* Letras pretas */
+}
+
+header {
+    background-color: #adccae; /* Cor de fundo do cabeçalho */
+    color: white; /* Letras brancas no cabeçalho */
+    text-align: center;
+    padding: 0,5% 0;
+}
+
+nav {
+    background-color: #333; /* Cor de fundo da navegação */
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 30px;
+}
+
+nav ul li a {
+    color: white; /* Letras brancas nos links */
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    text-decoration: underline; /* Sublinhado ao passar o mouse */
+}
+
+main {
+    padding: 20px;
+    text-align: center;
+}
+
+figure {
+    text-align: center;
+   
+}
+
+
+p {
+    text-align: center;
+}
+/* Estilo para o texto em negrito */
+strong {
+    font-weight: bold; /* Negrito */
+}
